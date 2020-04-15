@@ -1,0 +1,15 @@
+nav {
+    margin-top: 1rem;
+}
+
+nav > a{
+    margin: 0 2rem;
+}
+
+.App {
+    padding-top: 2rem;
+}
+
+.page-item{
+    padding: 0 .2rem;
+}

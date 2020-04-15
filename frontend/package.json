@@ -1,0 +1,32 @@
+{
+  "name": "backend",
+  "version": "0.0.0",
+  "description": "TwitterAPI project",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "chart.js": "^2.9.3",
+    "export-to-csv": "^0.2.1",
+    "react": "^16.13.1",
+    "react-chartjs-2": "^2.9.0",
+    "react-dom": "^16.13.1",
+    "react-router-dom": "^5.1.2"
+  },
+  "devDependencies": {
+    "react-scripts": "^3.4.1"
+  },
+  "scripts": {
+    "start": "set PORT=80 && react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "author": "Rogerio Ushiro",
+  "license": "MIT",
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
