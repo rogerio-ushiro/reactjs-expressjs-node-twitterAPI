@@ -19,7 +19,8 @@ Web application for extracting tweets through Twitter API.
 
 # 	How to run
 
-Requirement: NodeJS (v12.16.1, more info: https:/nodejs.org)
+Requirement: NodeJS (v12.16.1, more info: https:/nodejs.org) and Docker as an optional.
+
 
 ## 	Running by Node.js
 
