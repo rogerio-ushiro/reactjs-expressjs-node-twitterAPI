@@ -2,12 +2,13 @@
 
 Web application for extracting tweets through Twitter API.
 
-#### Requirements to this Project:
+#### Requirements to this Project
 
 - Extract tweets according to user input,
 - Pagination by web interface,
 - Statistics from Twitter API extraction,
-- Result exportation to CSV file.
+- Result exportation to CSV file,
+- Ready to use with Docker.
 
 | Tweet search and Statistics | ![search](git_images/search.gif)     |
 | --------------------------- | ------------------------------------ |
@@ -16,9 +17,11 @@ Web application for extracting tweets through Twitter API.
 
 
 
-# How to run
+# 	How to run
 
-Requirement: NodeJS (v12.16.1, more info: https://nodejs.org)
+Requirement: NodeJS (v12.16.1, more info: https:/nodejs.org)
+
+## 	Running by Node.js
 
 Steps to run the project locally:
 
@@ -33,6 +36,22 @@ Steps to run the project locally:
 - Access the local web host (http://localhost) on your web browser.
 
   
+  
+## 	Running by Docker
+
+This repository includes two Dockerfiles properly configured, one to frontend and another to backend.
+
+To start, generate the docker images and then run as the instructions below:
+
+- run the backend: ` docker run -it -d <REPOSITORY_NAME:BACKEND_IMG_TAG>`
+
+- run the frontend: `docker run -it -d -p 80:3000 <REPOSITORY_NAME:BACKEND_IMG_TAG>`
+
+- finally, access the application by the address http://localhost
+
+  
+
+# 	Concepts included on the project
 
 #### ReactJS concepts implemented in the project
 
@@ -45,4 +64,3 @@ Date formatting, port customization for the front and back-end, loops, arrays, t
 #### Other concepts
 
 Rest API, OOP, a short usage of encapsulation and SOLID.
-
